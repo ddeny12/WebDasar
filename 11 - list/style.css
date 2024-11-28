@@ -1,0 +1,27 @@
+ul li {
+    list-style-type: lower-alpha;
+}
+
+.marker-img li {
+    list-style-type: none;
+    background: url("check.png") 0 50% no-repeat;
+    background-size: 10px 10px;
+    padding-left: 10px;
+}
+
+.marker-in {
+    list-style-position: inside;
+}
+
+ul.combined li{
+    list-style: circle inside;
+}
+
+ul.horizontal li {
+    display: inline-block;
+}
+
+ul.float-list li {
+    float: left;
+    margin: 0 16px;
+}
